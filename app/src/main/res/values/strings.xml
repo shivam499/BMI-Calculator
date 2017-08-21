@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="calculate">Calculate</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="bmi_full">Body Mass Index Calculator</string>
+    <string name="bmr_full">Basal Metabolic Rate Calculator</string>
+    <string name="cal_full">Calorie Calculator</string>
+    <string name="ibw_full">Ideal Body Weight Calculator</string>
+    <string name="bsa_full">Body Surface Area Calculator</string>
+    <string name="lbm_full">Lean Body Mass Calculator</string>
+    <string name="bsa_calculator">BSA Calculator</string>
+    <string name="bmr_calculator">BMR Calculator</string>
+    <string name="ibw_calculator">IBW Calculator</string>
+    <string name="lbm_calculator">LBM Calculator</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="calorie_calculator">Calorie Calculator</string>
+    <string name="bmi_info">BMI Info</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="tell_to_friend">Tell a Friend</string>
+    <string name="about">About</string>
+    <string name="activity_prompt">Choose An Activity</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="disClaimer_string">This information is provided as is without warranty of any kind,
+        either expressed or implied, including, but not limited to, the implied warranties of merchantability,
+        fitness for a particular purpose, or non-infringement.
+        This information could include technical inaccuracies or typographical errors.
+        Changes may be added periodically to the information. Users should seek medical advice from a
+        licensed physician and not rely solely on information they may gather from secondary sources such as the Internet.
+        This app cannot be held responsible for the validity of the information contained in any reference noted here in,
+        nor for the misuse of information or any adverse effects from use of any stated materials presented here in.</string>
+
+    <string name="interStUnit">ca-app-pub-4550578723880227/9984900197</string>
+    <string name="nativeUnit">ca-app-pub-4550578723880227/2461633391</string>
+    <string name="bannerUnit">ca-app-pub-4550578723880227/6861369797</string>
+    <string name="appId">ca-app-pub-4550578723880227~8508166996</string>
+    <string name="weight_in_kgs">Weight in Kgs.</string>
+    <string name="height_in_cms">Height in Cms.</string>
+    <string name="bmr_info">BMR Info</string>
+    <string name="ibw_info">IBW Info</string>
+    <string name="bsa_info">BSA Info</string>
+    <string name="calorie_info">Calorie Info</string>
+    <string name="lbm_info">LBM Info</string>
+
+    <string name="bmi_ques"><![CDATA[What is BMI and How to Calculate?]]></string>
+    <string name="bmi_ans"><![CDATA[BMI stands for Body Mass Index.It can be calculated by using Weight over squared Height of
+        any Person and give the BMI value.<br/><br/><b>Formula : </b><br/> Weight(Kg.)/Height(m)*Height(m)
+    <br/><br/><b>BMI Range : </b><br/>
+    1. Very severely underweight&emsp;&emsp;< 15<br/>
+    2. Severely underweight&emsp;&emsp;&emsp;&emsp;15 - 16<br/>
+    3. Underweight&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16 - 18.5<br/>
+    4. Normal&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;18.5 - 25<br/>
+    5. Overweight&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;25 - 30<br/>
+    6. Moderately obese&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;30 - 35<br/>
+    7. Severely obese&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;35 - 40<br/>
+    8. Very severely obese&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;> 40<br/>
+    ]]></string>
+    <string name="bmr_ques"><![CDATA[What is BMR and How to Calculate?]]></string>
+    <string name="bmr_ans"><![CDATA[BMR stands for Basal Metabolic Rate and represents the number of calories you would burn in a day if you were inactive and stayed in bed all day. The BMR calculator allows you to calculate not only the number of calories you burn when inactive, but also a daily calorie figure that takes into account your lifestyle activity level. These two figures together give you a representative figure for your daily calorie intake.<br/>
+    the Basal Metabolic Rate (BMR) is calculated by using the following formula:<br/><br/><b>Mifflin - St Jeor equation</b><br/><br/>
+    10 * weight(kg) + 6.25 * height(cm) - 5 * age(y) + 5 (man)<br/>
+    10 * weight(kg) + 6.25 * height(cm) - 5 * age(y) - 161 (woman)]]></string>
+
+    <string name="cal_ques"><![CDATA[What is Calorie and How to Calculate daily Calorie uses?]]></string>
+    <string name="cal_ans"><![CDATA[The Calorie Calculator can be used to estimate the calories you need to consume each day.
+        The calories needed to maintain your weight equal to the BMR value, multiplied by an activity factor.
+    The average male adult requires about 2,700 calories to maintain his weight, while the average female needs only 2,200 calories, according to the U.S Department of Health.
+        <br/><br/><b>Calorie Intake</b><br/><br/>
+            1. Little to no exercise&emsp;&emsp;1.2<br/>
+            2. Light exercise&emsp;&emsp;&emsp;&emsp;1.375<br/>
+            3. Moderate exercise&emsp;&emsp;1.55<br/>
+            4. Heavy exercise&emsp;&emsp;&emsp;1.725<br/>
+            5. Very heavy exercise&emsp;1.9<br/><br/>
+
+        <b>Formula : </b><br/>
+        Calorie Needed = BMR * Calorie Intake]]></string>
+    <string name="ibw_ques"><![CDATA[What is IBW and How to Calculate?]]></string>
+    <string name="ibw_ans"><![CDATA[IBW stands for Ideal Body Weight.
+        The Ideal Body Weight Calculator computes the ideal body weight as well as a healthy body weight range based on height, gender, and age.
+        However, there is still no definite answer regarding the "best" weight for a person. However, the results obtained by most formulas are very good.
+        The Ideal Weight Calculator provides the results of all the popular formulas for comparison purposes.<br/><br/><b>J. D. Robinson Formula</b><br/><br/> 52 kg + 1.9 kg/inch over 5 feet (man)<br/>
+        49 kg + 1.7 kg/inch over 5 feet (woman)]]></string>
+    <string name="lbm_ques"><![CDATA[What is LBM and How to Calculate?]]></string>
+    <string name="lbm_ans"><![CDATA[LBM stands for Lean Body Mass.The Lean Body Mass Calculator gives out the estimated Lean Body Mass (LBM) based on body weight, height, gender, and age. The Lean Body Mass (LBM) is a part of the body. It is normally defined to be the body weight minus the body fat. Typically lean body mass is 60 – 90% of the total body mass. Normally, men have higher port of lean body mass than women. Some anaesthetic agents dosage, especially water-soluble drugs, are routinely based on the lean body mass value. ]]></string>
+    <string name="bsa_ques"><![CDATA[What is BSA and How to Calculate?]]></string>
+    <string name="bsa_ans"><![CDATA[BSA stands for Body Surface Area is the measured or calculated surface area of a human body. For many clinical purposes BSA is a better indicator of Kouro than body weight because it is less affected by abnormal adipose mass. Nevertheless, there have been several important critiques of the use of BSA in determining the dosage of medications with a narrow therapeutic index, such as chemotherapy.]]></string>
+    <string name="more_about_bmi">More About BMI</string>
+    <string name="recycleritem">recyclerItem</string>
+    <string name="more_about_bmr">More About BMR</string>
+    <string name="more_about_calorie">More About Calorie</string>
+    <string name="more_anout_ibw">More About IBW</string>
+    <string name="image">image</string>
+    <string name="more_about_bsa">More About BSA</string>
+    <string name="more_about_lbm">More About LBM</string>
+</resources>

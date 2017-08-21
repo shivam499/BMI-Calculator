@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pathantalabs.android.bmicalculator"
+    android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bmi_icon_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bmi_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".app.MainActivity">
+        </activity>
+        <activity
+            android:name=".tabLayouts.BmiCalculator"
+            android:parentActivityName=".app.MainActivity" />
+        <activity
+            android:name=".tabLayouts.BmrCalculator"
+            android:parentActivityName=".app.MainActivity" />
+        <activity
+            android:name=".tabLayouts.CalorieCalculator"
+            android:parentActivityName=".app.MainActivity" />
+        <activity
+            android:name=".tabLayouts.IbwCalculator"
+            android:parentActivityName=".app.MainActivity" />
+        <activity
+            android:name=".tabLayouts.LbmCalculator"
+            android:parentActivityName=".app.MainActivity" />
+        <activity
+            android:name=".tabLayouts.BsaCalculator"
+            android:parentActivityName=".app.MainActivity" />
+        <activity android:name=".app.SplashScreen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

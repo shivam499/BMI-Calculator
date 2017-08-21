@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="activity_unit">
+        <item>little to no exercise</item>
+        <item>exercise 1–3 days in a week</item>
+        <item>exercise moderately</item>
+        <item>hard exercise</item>
+        <item>extreme Physical Job</item>
+    </string-array>
+</resources>

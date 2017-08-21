@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pathantalabs.android.bmicalculator.BmiCalculate">
+
+    <item
+        android:title="@string/rate_us"
+        android:id="@+id/rateUs"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/disclaimer"
+        android:id="@+id/disclaimer"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:title="@string/tell_to_friend"
+        android:id="@+id/shareApp"
+        android:orderInCategory="300"
+        app:showAsAction="never"/>
+    <item
+        android:title="@string/about"
+        android:id="@+id/about"
+        android:orderInCategory="400"
+        app:showAsAction="never"/>
+
+</menu>
